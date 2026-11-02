@@ -1,0 +1,11 @@
+{
+  "extDescription": {
+    "message": "一鍵複製好讀的網址：中文不變亂碼、拿掉追蹤參數、YouTube 轉短網址。V-AX (v-ax.com)"
+  },
+  "copied": {
+    "message": "已複製網址到剪貼簿:"
+  },
+  "copyFailed": {
+    "message": "無法複製網址。請先點一下網頁再試一次。"
+  }
+}

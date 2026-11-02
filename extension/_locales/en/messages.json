@@ -1,0 +1,11 @@
+{
+  "extDescription": {
+    "message": "Copy clean, readable URLs: no garbled Chinese, no tracking parameters, short YouTube links. V-AX (v-ax.com)"
+  },
+  "copied": {
+    "message": "Copied to clipboard:"
+  },
+  "copyFailed": {
+    "message": "Couldn't copy the URL. Click the page, then try again."
+  }
+}
