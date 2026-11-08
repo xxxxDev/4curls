@@ -5,6 +5,7 @@
 4cUrls has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere.
 
 - **The address of the current page.** When you click the icon, the extension reads the address and puts it on your clipboard. It stays on your device.
+- **Mobile01 topic pages.** On these pages the extension also reads the page's own `og:url` tag, which holds the topic's real address. It reads nothing else on the page.
 - **The clipboard.** The extension only writes to it, and only after you click the icon. It never reads it.
 - **Network.** The extension makes no network requests of its own.
 
