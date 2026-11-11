@@ -53,12 +53,20 @@ The browser may ask once per site for permission to use the clipboard.
 - **It doesn't run on every page.** `chrome://` pages and the Chrome Web Store don't allow extensions to run. 4cUrls also skips Google Search and Google account pages.
 - **A YouTube link keeps only the video.** The start time and playlist aren't copied.
 
-## Privacy
+## Privacy and permissions
 
-4cUrls has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. See [SECURITY.md](SECURITY.md).
+4cUrls has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. It runs a small script on the pages you open, and it writes to the clipboard only after you click the icon. See [SECURITY.md](SECURITY.md).
+
+For questions about privacy, email [support@v-ax.com](mailto:support@v-ax.com).
+
+## Contributing
+
+To report a bug or suggest a change, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
 The code is under the [MIT License](LICENSE). The icon isn't: see [BRAND.md](BRAND.md).
+
+4cUrls is an independent project. It is not made by, affiliated with or endorsed by Google. Chrome is a trademark of Google LLC.
 
 Made by [V-AX](https://v-ax.com).
