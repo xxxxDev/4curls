@@ -55,7 +55,7 @@ The browser may ask once per site for permission to use the clipboard.
 
 ## Privacy and permissions
 
-4cUrls has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. It runs a small script on the pages you open, and it writes to the clipboard only after you click the icon. See [SECURITY.md](SECURITY.md).
+4cUrls has no server and no analytics. It reads the address of the current page inside your browser, and it doesn't store it or send it anywhere. On Mobile01 topic pages it also reads the page's `og:url` tag, which holds the topic's real address. It runs a small script on the pages you open, and it writes to the clipboard only after you click the icon. See [SECURITY.md](SECURITY.md).
 
 For questions about privacy, email [support@v-ax.com](mailto:support@v-ax.com).
 
